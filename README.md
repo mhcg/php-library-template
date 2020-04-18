@@ -10,7 +10,7 @@ The goals being to provide a quick way to start a new PHP project with some sane
 
 ## Getting Started
 
-Download the [latest.zip](/mhcg/php-library-template/releases/latest) files and unzipped to a folder of your choice and open VS Code on that folder.  Assuming you have the [VS Code Remote Development](https://code.visualstudio.com/docs/remote/remote-overview) stuff already up and running you should be prompted to re-open in a container.
+Download the [latest.zip](https://github.com/mhcg/php-library-template/releases/latest) files and unzipped to a folder of your choice and open VS Code on that folder.  Assuming you have the [VS Code Remote Development](https://code.visualstudio.com/docs/remote/remote-overview) stuff already up and running you should be prompted to re-open in a container.
 
 Run `composer update` either from the command line or via the Command Pallette to get Composer up and running, the Dockerfile already installs this.  You will get phpcs errors until you do.
 
