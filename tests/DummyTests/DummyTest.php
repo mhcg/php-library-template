@@ -8,7 +8,7 @@
 
 declare(strict_types=1);
 
-namespace Dummy\Tests;
+namespace DummyTests;
 
 use PHPUnit\Framework\TestCase;
 

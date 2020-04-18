@@ -19,13 +19,13 @@
         "squizlabs/php_codesniffer": "^3.5"
     },
     "autoload": {
-        "psr-4": {
+        "psr-0": {
             "Dummy\\": "src/"
         }
     },
     "autoload-dev": {
-        "psr-4": {
-            "Dummy\\Tests\\": "tests/"
+        "psr-0": {
+            "DummyTests\\": "tests/"
         }
     },
     "support": {
