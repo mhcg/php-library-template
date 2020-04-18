@@ -18,6 +18,16 @@
         "phpunit/phpunit": "8.5.* || 9.0.*",
         "squizlabs/php_codesniffer": "^3.5"
     },
+    "autoload": {
+        "psr-0": {
+            "Dummy\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-0": {
+            "DummyTests\\": "tests/"
+        }
+    },
     "support": {
         "issues": "https://github.com/mhcg/library-name/issues",
         "wiki": "https://github.com/mhcg/library-name/wiki",
